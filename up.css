@@ -229,7 +229,7 @@ footer a {
         width: 100%;
     }
 
-    .footer-menu {
+    .footer-sec {
         display: flex;
         flex-direction: column;
         justify-content: center;
