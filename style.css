@@ -179,9 +179,11 @@ main {
     margin-right: 10px;
 }
 
-.view-all {
+#view-all {
     display: none;
 }
+
+
 
 
 /* footer section */
@@ -273,7 +275,7 @@ footer div {
         align-items: center;
     }
 
-    .view-all {
+    #view-all {
         display: none;
     }
 
@@ -322,24 +324,25 @@ footer div {
     }
 
 
-    .view-all a {
+    #view-all a {
         text-decoration: none;
         color: white;
         font-size: 20px;
         font-weight: 700;
     }
-}
 
-.view-all {
-    width: 100px;
-    background-color: red;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    padding: 5px 10px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 
+    #view-all {
+        width: 100px;
+        background-color: red;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        padding: 5px 10px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
 }
