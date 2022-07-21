@@ -1,0 +1,274 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+/* header styles */
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.header-text {
+    width: 50%;
+    padding: 30px;
+}
+
+.header-text h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.header-text p {
+    font-size: 20px;
+    color: white;
+}
+
+.header-text a {
+    background-color: red;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.header-image {
+    width: 50%;
+}
+
+.header-image img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+
+/* post-section */
+
+.navigation a {
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 60%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    width: 81%;
+}
+
+.navigation {
+    background-color: black;
+    height: 200px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.nav-up,
+.all-group {
+    background-color: white;
+    color: black;
+}
+
+.nav-blog {
+    background-color: red;
+    color: white;
+}
+
+.matches {
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-section {
+    margin: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.post-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.schedule-match {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+h2,
+h4 {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.countries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.counties img {
+    width: 40%;
+    height: 80%;
+    margin: 5px;
+}
+
+
+/* footer-section */
+
+footer {
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+footer hr {
+    width: 80%;
+    height: 1px;
+    border: 0px;
+    background-color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px;
+}
+
+.fa-brands {
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 576px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .header-text {
+        text-align: center;
+    }
+
+    .header-image img {
+        width: 100%;
+    }
+
+    .post-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .navigation {
+        width: 90%;
+        background-color: white;
+    }
+
+    .navigation a {
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+
+    .schedule-match {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* tab */
+
+@media only screen and (min-width: 577px) and (max-width: 1000px) {
+
+    .header {
+        width: 90%;
+    }
+
+
+    .post-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 90%;
+        background-color: white;
+    }
+
+    .navigation a {
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+
+    .schedule-match {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+}
